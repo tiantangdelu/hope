@@ -1,0 +1,380 @@
+
+2016-01-21 14:31:50
+[WARN]-[Thread: qtp693299748-21]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [section_show_list], using default.
+
+2016-01-21 14:31:51
+[WARN]-[Thread: qtp693299748-21]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [link_list], using default.
+
+2016-01-21 14:31:51
+[WARN]-[Thread: qtp693299748-21]-[net.sf.ehcache.store.disk.DiskStorageFactory.<init>()]: The index for data file /var/folders/6q/k42s8j9j651_bv5c1vc5vc540000gn/T/link_list.data is out of date, probably due to an unclean shutdown. Deleting index file /var/folders/6q/k42s8j9j651_bv5c1vc5vc540000gn/T/link_list.index
+
+2016-01-21 14:31:51
+[WARN]-[Thread: qtp693299748-21]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [default_section], using default.
+
+2016-01-21 14:35:16
+[WARN]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: java.lang.RuntimeException: Can not create instance of class: com.jfinalbbs.common.JFinalbbsConfig. Please check the config in web.xml
+java.lang.RuntimeException: Can not create instance of class: com.jfinalbbs.common.JFinalbbsConfig. Please check the config in web.xml
+	at com.jfinal.core.JFinalFilter.createJFinalConfig(JFinalFilter.java:104)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:47)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$000(Scanner.java:31)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+2016-01-21 14:35:16
+[WARN]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.WebAppContext.doStart()]: Failed startup of context o.e.j.w.WebAppContext{/,file:/Users/youzm/workspace/work/hope/jfinalbbs-master/src/main/webapp/}
+java.lang.RuntimeException: Can not create instance of class: com.jfinalbbs.common.JFinalbbsConfig. Please check the config in web.xml
+	at com.jfinal.core.JFinalFilter.createJFinalConfig(JFinalFilter.java:104)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:47)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$000(Scanner.java:31)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+2016-01-21 14:35:16
+[WARN]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/Users/youzm/workspace/work/hope/jfinalbbs-master/src/main/webapp/}: java.lang.RuntimeException: Can not create instance of class: com.jfinalbbs.common.JFinalbbsConfig. Please check the config in web.xml
+java.lang.RuntimeException: Can not create instance of class: com.jfinalbbs.common.JFinalbbsConfig. Please check the config in web.xml
+	at com.jfinal.core.JFinalFilter.createJFinalConfig(JFinalFilter.java:104)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:47)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$000(Scanner.java:31)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+2016-01-21 14:35:16
+[ERROR]-[Thread: JFinal-Scanner]-[com.jfinal.kit.LogKit.error()]: Can not create instance of class: com.jfinalbbs.common.JFinalbbsConfig. Please check the config in web.xml
+java.lang.RuntimeException: Can not create instance of class: com.jfinalbbs.common.JFinalbbsConfig. Please check the config in web.xml
+	at com.jfinal.core.JFinalFilter.createJFinalConfig(JFinalFilter.java:104)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:47)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$000(Scanner.java:31)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+2016-01-21 14:35:20
+[WARN]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.servlet.FilterHolder.doStop()]: 
+java.lang.NullPointerException
+	at com.jfinal.core.JFinalFilter.destroy(JFinalFilter.java:86)
+	at org.eclipse.jetty.servlet.FilterHolder.destroyInstance(FilterHolder.java:136)
+	at org.eclipse.jetty.servlet.FilterHolder.doStop(FilterHolder.java:114)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:192)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:356)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:237)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:127)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStop(HandlerWrapper.java:102)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:764)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:144)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:479)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:84)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:105)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$000(Scanner.java:31)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+2016-10-24 00:56:21
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED jfinal: java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0
+java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(ClassLoader.java)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:637)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2484)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2604)
+	at java.lang.Class.getMethods(Class.java:1446)
+	at com.jfinal.core.ActionMapping.buildActionMapping(ActionMapping.java:70)
+	at com.jfinal.core.JFinal.initActionMapping(JFinal.java:100)
+	at com.jfinal.core.JFinal.init(JFinal.java:65)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:261)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+
+2016-10-24 00:56:21
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED o.e.j.w.WebAppContext{/,file:/Users/youzm/workspace/work/hope/jfinalbbs-master/src/main/webapp/}: java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0
+java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(ClassLoader.java)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:637)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2484)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2604)
+	at java.lang.Class.getMethods(Class.java:1446)
+	at com.jfinal.core.ActionMapping.buildActionMapping(ActionMapping.java:70)
+	at com.jfinal.core.JFinal.initActionMapping(JFinal.java:100)
+	at com.jfinal.core.JFinal.init(JFinal.java:65)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:261)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+
+2016-10-24 00:56:21
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@3b8c8ad2: java.lang.IllegalStateException: !Selecting
+java.lang.IllegalStateException: !Selecting
+	at org.eclipse.jetty.io.nio.SelectorManager.doStart(SelectorManager.java:309)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:58)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:319)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:251)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:272)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+
+2016-10-24 00:56:21
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED SelectChannelConnector@0.0.0.0:8080: java.lang.IllegalStateException: !Selecting
+java.lang.IllegalStateException: !Selecting
+	at org.eclipse.jetty.io.nio.SelectorManager.doStart(SelectorManager.java:309)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:58)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:319)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:251)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:272)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+
+2016-10-24 00:56:21
+[WARN]-[Thread: main]-[org.eclipse.jetty.util.component.AbstractLifeCycle.setFailed()]: FAILED org.eclipse.jetty.server.Server@315a87c0: MultiException[java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0, java.lang.IllegalStateException: !Selecting]
+MultiException[java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0, java.lang.IllegalStateException: !Selecting]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:254)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(ClassLoader.java)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:637)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2484)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2604)
+	at java.lang.Class.getMethods(Class.java:1446)
+	at com.jfinal.core.ActionMapping.buildActionMapping(ActionMapping.java:70)
+	at com.jfinal.core.JFinal.initActionMapping(JFinal.java:100)
+	at com.jfinal.core.JFinal.init(JFinal.java:65)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:261)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+java.lang.IllegalStateException: !Selecting
+	at org.eclipse.jetty.io.nio.SelectorManager.doStart(SelectorManager.java:309)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:58)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:319)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:251)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:272)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+
+2016-10-24 00:56:21
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Multiple exceptions
+MultiException[java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0, java.lang.IllegalStateException: !Selecting]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:254)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+java.lang.UnsupportedClassVersionError: cn/weibo/model/WeiboException : Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(ClassLoader.java)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:637)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2484)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2604)
+	at java.lang.Class.getMethods(Class.java:1446)
+	at com.jfinal.core.ActionMapping.buildActionMapping(ActionMapping.java:70)
+	at com.jfinal.core.JFinal.initActionMapping(JFinal.java:100)
+	at com.jfinal.core.JFinal.init(JFinal.java:65)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:102)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:249)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1214)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:676)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:455)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:261)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+java.lang.IllegalStateException: !Selecting
+	at org.eclipse.jetty.io.nio.SelectorManager.doStart(SelectorManager.java:309)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:58)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:319)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:251)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:272)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at com.jfinal.server.JettyServer.doStart(JettyServer.java:122)
+	at com.jfinal.server.JettyServer.start(JettyServer.java:65)
+	at com.jfinal.core.JFinal.start(JFinal.java:154)
+	at com.jfinalbbs.common.JFinalbbsConfig.main(JFinalbbsConfig.java:162)
+
+2016-10-24 00:57:49
+[WARN]-[Thread: qtp1612306589-48]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [section_show_list], using default.
+
+2016-10-24 00:57:49
+[WARN]-[Thread: qtp1612306589-48]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [link_list], using default.
+
+2016-10-24 00:57:49
+[WARN]-[Thread: qtp1612306589-48]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [default_section], using default.
+
+2016-10-24 00:59:06
+[WARN]-[Thread: qtp1401144025-49]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [section_show_list], using default.
+
+2016-10-24 00:59:06
+[WARN]-[Thread: qtp1401144025-49]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [link_list], using default.
+
+2016-10-24 00:59:06
+[WARN]-[Thread: qtp1401144025-49]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [default_section], using default.
+
+2016-10-24 00:59:45
+[WARN]-[Thread: qtp1401144025-48]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [section_list], using default.
+
+2016-10-24 09:59:12
+[WARN]-[Thread: qtp1512510143-49]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [section_show_list], using default.
+
+2016-10-24 09:59:12
+[WARN]-[Thread: qtp1512510143-49]-[com.jfinal.plugin.ehcache.CacheKit.getOrAddCache()]: Could not find cache config [link_list], using default.
